@@ -3,6 +3,6 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Docker CI/CD App Running!"
+    return "This is CICD using all CICD tools and AWS"
 
 app.run(host="0.0.0.0", port=5000)
